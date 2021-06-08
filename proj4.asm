@@ -1,4 +1,4 @@
-//BRYCE MARTIN
+//DenkuOne
 thdmux	.INT -1
 arrmux	.INT -1
 CNT	.INT 0

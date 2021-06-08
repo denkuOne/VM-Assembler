@@ -1,66 +1,22 @@
-//BRYCE MARTIN
-A	.BYT 'A'
-B	.BYT 'B'
-C	.BYT 'C'
-E	.BYT 'E'
-I	.BYT 'I'
-M	.BYT 'M'
-N	.BYT 'N'
-R	.BYT 'R'
-T	.BYT 'T'
-Y	.BYT 'Y'
-nulin	.BYT '\n'
-com	.BYT ','
+//DenkuOne
 space	.BYT ' '
-
+nulin	.BYT '\n'
 a1	.INT 1
 a2	.INT 2
 a3	.INT 3
 a4	.INT 4
 a5	.INT 5
 a6	.INT 6
-
 b1	.INT 300
 b2	.INT 150
 b3	.INT 50
 b4	.INT 20
 b5	.INT 10
 b6	.INT 5
-
 c1	.INT 500
 c2	.INT 2
 c3	.INT 5
 c4	.INT 10
-//Start of program
-	LDB R3 M
-	TRP 3
-	LDB R3 A
-	TRP 3
-	LDB R3 R
-	TRP 3
-	LDB R3 T
-	TRP 3
-	LDB R3 I
-	TRP 3
-	LDB R3 N
-	TRP 3
-	LDB R3 com
-	TRP 3
-	LDB R3 space
-	TRP 3
-	LDB R3 B
-	TRP 3
-	LDB R3 R
-	TRP 3
-	LDB R3 Y
-	TRP 3
-	LDB R3 C
-	TRP 3
-	LDB R3 E
-	TRP 3
-	LDB R3 nulin
-	TRP 3
-	TRP 3
 //Addition of all elements in array b
 //Final result is saved in R0
 	LDR R0 b1

@@ -1,4 +1,4 @@
-//BRYCE MARTIN
+//DenkuOne
 //R1 R2 R3 are temp registers
 //R0 = i
 //R4 holds modulus mask of 0x00000001
@@ -52,7 +52,7 @@ while	MOV R1 R0
 	LDR R3 R2
 	ADD R1 R3
 	STR R1 sum
-	MOV R2 R1
+	MOV R2 R3
 	//Do modulus operator on previous value
 	AND R2 R4
 	//Increment i
@@ -60,7 +60,7 @@ while	MOV R1 R0
 	//Branch to "else" if result is odd
 	BGT R2 else
 	//Stay if result is even
-	MOV R3 R1
+	//MOV R3 R1
 	TRP 1
 	//Print " is even\n"
 	LDB R3 space
@@ -82,8 +82,8 @@ while	MOV R1 R0
 	LDB R3 nulin
 	TRP 3
 	JMP while
-else	MOV R3 R1 //Start here is result is odd
-	TRP 1
+	MOV R3 R1 //Start here is result is odd
+else	TRP 1
 	//Print " is odd\n"
 	LDB R3 space
 	TRP 3

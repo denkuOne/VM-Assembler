@@ -1,4 +1,4 @@
-//BRYCE MARTIN
+//DenkuOne
 SIZE	.INT 7
 tenth	.INT 0
 data	.INT 0
