@@ -5,7 +5,7 @@ Assembler and Virtual Machine for a fictitious hardware. Assembly code is passed
 vm.cpp contains the code which emulates a processor at a high abstraction. It follows the 5-stage architecture fetch, decode, execute, memory and write back but is not pipe lined. The code consists of a large while loop that executes all 5 of the stages mentioned above before the next instruction is fed into the CPU. A large switch statement is used to define the behavior of every single available instruction in my fictional assembly language. The vm also supports simple multi-threading by breaking up memory between a total of 5 possible threads and context switching between every single active thread per instruction.
 assembler.cpp contains the code which reads user created assembly code and assembles it into a machine code. The machine code is passed to the vm through a struct that contains some data regarding the assembled file and a large array of memory with the machine code loaded inside. The assembler conducts robust error checking throughout the assembly process to warn the user regarding unrecognizable assembly code syntax.   
 
-![ISA](https://user-images.githubusercontent.com/85288181/121527747-b2fdff80-ca35-11eb-9850-ff8f003350d7.jpg)
+![ISA](https://user-images.githubusercontent.com/85288181/121529414-569bdf80-ca37-11eb-8603-64fc71debd7f.jpg)
 
 # How to Use
 Download the files and build the vm.cpp file with a C++ compiler. assembler.cpp is a library used by vm.cpp.
