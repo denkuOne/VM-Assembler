@@ -1,4 +1,7 @@
 # Assembler-and-VM
+
+この下に日本語の説明あります。
+
 Assembler and Virtual Machine for a fictitious hardware. Assembly code is passed to the VM which is assembled and ran on simulated hardware. This code was written for a school project and is not necessarily useful for anything but educational purposes.
 
 # About the Code
@@ -22,3 +25,13 @@ This assembly program is a manually compiled implementation of the example.c pro
 # Project 4
 Demonstrates recursion by implementing a Fibonacci sequence calculator
 It also demonstrates multi-threading by running up to five Fibonacci calculations simultaneously.
+
+大学の時、仮想のコンピューターアーキテクチャのプログラム書いた。以下の仮想のアセンブリを実行できる。プログラムの部分は四つであって、アセンブラー、シンボルテーブル、プロセッサー、アセンブリコード。アセンブリコード以外、上の三つは全部vm.exeに含まれてる。vm.exeを実行すると、アセンブリコードの入力は必要。すると、実行の連続は以下、
+
+１入力したアセンブリコードを機械語に変化
+　１ー書き方の間違えを探す
+　２ーdirectivesの行目を繋いでるからシンボルテーブルに登録する
+　３ー行目を一列ずつ二進法に変化
+２変化した機械語を仮想のプロセッサーで実行
+
+アセンブリなのにスレッドの可能もあり。
