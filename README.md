@@ -27,10 +27,10 @@ This assembly program is a manually compiled implementation of the example.c pro
 Demonstrates recursion by implementing a Fibonacci sequence calculator
 It also demonstrates multi-threading by running up to five Fibonacci calculations simultaneously.
 
-#Demo
+# Demo
 https://youtu.be/35O4qbdu8D0
 
-＃説明
+# 説明
 
 大学の時、仮想のコンピューターアーキテクチャのプログラム書いた。実行可能のアセンブリー語は上の図で説明されている。プログラムの部分は四つあって、アセンブラー、シンボルテーブル、プロセッサー、アセンブリコード。アセンブラーとシンボルテーブルは両方assembler.cppに含まれ、プロセッサーはvm.cppに含まれている。アセンブリコードは別のファイルにある。もちろん、vm.exeを実行すると、アセンブリコードの入力は必要だ。すると、実行の連続は以下、
 
@@ -39,18 +39,18 @@ https://youtu.be/35O4qbdu8D0
 
 もし入力されたアセンブリに書き間違えあったら、アセンブラはエラー表示して、実行が止まる。エラーは表示されると、書き間違えある行目の番号も表示されるからディバッグは楽だ。
 
-＃「proj1.asm」
+# 「proj1.asm」
 このコードは、算数とメモリー書き込みと読み込みを示す
 
-＃「proj2.asm」
+# 「proj2.asm」
 このコードは、アレイの操作を示す
 
-＃「proj3.asm」
+# 「proj3.asm」
 このコードは、コールスタック使用、手動でアセンブリ言語にコンパイルされた「example.c」を示す
 
-＃「proj4.asm」
+# 「proj4.asm」
 このコードは、再帰を使用、フィボナッチ数の計算を示す。
 その上、仮想のプロセッサーのスレッド可能も示す。
 
-#　ビデオ
+# ビデオ
 https://youtu.be/35O4qbdu8D0
