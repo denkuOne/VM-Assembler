@@ -34,11 +34,11 @@ This assembly program is a manually compiled implementation of the example.c pro
 このコードは、コールスタック使用、手動でアセンブリ言語にコンパイルされた「example.c」を示します。
 
 # 「proj4.asm」
-このコードは、再帰を使用、フィボナッチ数の計算を示します。
-その上、仮想のプロセッサーのスレッド可能も示します。
-
 Demonstrates recursion by implementing a Fibonacci sequence calculator
 It also demonstrates multi-threading by running up to five Fibonacci calculations simultaneously.
+
+このコードは、再帰を使用、フィボナッチ数の計算を示します。
+その上、仮想のプロセッサーのスレッド可能も示します。
 
 # ビデオ Demo
 https://youtu.be/35O4qbdu8D0
