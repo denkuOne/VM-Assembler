@@ -1,8 +1,5 @@
-*/
-* All code written by BRYCE MARTIN
-*/
-
 #include <regex>
+#include <iostream>
 #include "assembler.cpp"
 
 struct IR{
@@ -221,7 +218,7 @@ int initializeThread(bool* threadpool, char*base, int start_addr, int* registers
     int i = 0;
     int threadout = -1;
     
-    //Find available thread
+    //Find next available thread
     while(!available && i < 5){
         if(!threadpool[i]){
             available = true;

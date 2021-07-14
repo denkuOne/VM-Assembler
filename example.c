@@ -53,10 +53,8 @@ void opd(char s, int k, char j)
 }
 
 /*
-Discard keyboard input until a newline ‘
-\
-n’ is
-Encountered.
+Discard keyboard input until a newline ‘\n’ is
+encountered.
 */
 void flush()
 {
@@ -66,16 +64,10 @@ void flush()
         c[0] = getchar();
 }
 /*
-Read one ch
-ar at a time from the keyboard after a
-newline ‘
-\
-n’ has been entered
-. I
-f there is room
-place the char in the array c
-o
-therwise indicate the number is too big and
+Read one char at a time from the keyboard after a
+newline ‘\n’ has been entered. 
+If there is room place the char in the array c
+otherwise indicate the number is too big and
 flush the keyboard input.
 */
 void getdata()
@@ -109,8 +101,7 @@ void reset(int w, int x, int y, int z)
 /*
 Get input from the keyboard until the symbol ‘@’ is encountered.
 Convert the char data input from the keyboard to an integer be
-Sure to acco
-unt for the sign of the number.  If no sign is used
+Sure to account for the sign of the number.  If no sign is used
 always assume the number is positive.
 */
 void main()
